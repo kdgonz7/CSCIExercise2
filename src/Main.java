@@ -1,3 +1,7 @@
+
+// Kai D. Gonzalez
+// 2/3/2026
+// Exercise 2: LinkedHashMap Weather Forecast
 void main() {
     LinkedHashMap <Integer, Double> highTempsNextDays = new LinkedHashMap<>();
 
