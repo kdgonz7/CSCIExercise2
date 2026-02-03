@@ -18,7 +18,7 @@ void main() {
     highTempsNextDays.put(28, 0.75);
     highTempsNextDays.put(33, 0.90);
 
-    int dayCounter = 1;
+    int dayCounter = 0;
     for (Map.Entry<Integer, Double> entry : highTempsNextDays.entrySet()) {
         if (entry.getKey() <= 32 && entry.getValue() > 0.50) {
             System.out.println("Day " + dayMap[dayCounter] + " temp: " + entry.getKey() + ", precip: " + entry.getValue() * 100 + "%");
